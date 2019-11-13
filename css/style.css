@@ -1,11 +1,11 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: #3DAC39;
+  margin: 0;
+  padding: 0;
+  background: #3DAC39;
 }
 
 section#score {
@@ -21,13 +21,12 @@ section#score {
   background-size: cover;
 }
 
-#board  > div {    
+#board>div {
   border: 1px solid #0E260D;
   float: left;
   width: 64px;
   height: 64px;
 }
-
 
 section#score div {
   width: 10em;
@@ -41,7 +40,6 @@ section#score div {
   margin: 1em auto;
 }
 
-
 .rabbit {
   background-image: url('../images/rabbit.png');
   background-repeat: no-repeat;
@@ -49,7 +47,6 @@ section#score div {
   height: 2px;
   width: 200px;
 }
-
 
 .coin {
   background-image: url('../images/carrot.png');
@@ -67,6 +64,7 @@ section#over {
   padding: 10px;
   background-color: rgba(255, 255, 0, 0.75);
 }
+
 section#over pre {
   display: inline-block;
   width: 100%;
